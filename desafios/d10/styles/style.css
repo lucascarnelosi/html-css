@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+}
+
+header img {
+    width: 389px;
+    height: 94px;
+    margin: 50px 30px 90px;
+}
+
+main {
+    width: 647px;
+    height: 102px;
+    margin-left: 36px;
+}
+main h1 {
+    width: 566px;
+    height: 30px;
+    margin-bottom: 9px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--title-color);
+}
+main p:nth-child(2) {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+main p:nth-child(3) {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 50px;
+}
+main p:nth-child(4) {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+    color: var(--form-color);
+    margin-bottom: 17px;
+}
+
+form {
+    display: flex;
+    width: 798px;
+    height: 48px;
+    margin-bottom: 50px;
+}
+form input {
+    box-sizing: border-box;
+    width: 750px;
+    padding: 15px;
+    border: none;
+    border-left: 5px solid var(--title-color);
+    color: var(--body-bg-color);
+}
+form button {
+    width: 48px;
+    background-color: var(--bg-button-color);
+    border: none;
+}
+
+main a {
+    display: flex;
+    align-items: center;
+    color: var(--bg-button-color);
+    text-decoration: none;
+}
+main a > img {
+    background-color: var(--bg-button-color);
+    margin-left: 5px;
+}
